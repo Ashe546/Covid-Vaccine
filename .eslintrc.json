@@ -32,7 +32,5 @@
     "src/setupTests.js",
     "src/Redux",
     "src/__tests__"
-
-
   ]
 }
