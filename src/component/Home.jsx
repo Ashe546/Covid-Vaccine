@@ -2,16 +2,14 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchData } from '../Redux/Covid/covidSlice';
 
-
 export default function Home() {
+  let { covid } = useSelector((state) => state.covid);
+  let { status } = useSelector((state) => state.covid);
+  const [render, setRender] = useState(covid)
 
-    let { covid } = useSelector((state) => state.covid);
-    let { status } = useSelector((state) => state.covid);
-    const [render, setRender] = useState(covid)
 
-
-    const dispatch = useDispatch();
-    React.useEffect(() => {
+  const dispatch = useDispatch();
+  React.useEffect(() => {
         dispatch(fetchData());
     }, []);
 

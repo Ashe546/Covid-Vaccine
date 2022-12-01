@@ -1,16 +1,13 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchDetail } from '../Redux/Covid/covidSlice';
-import _get from 'lodash/get'
+import _get from 'lodash/get';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
+import { fetchDetail } from '../Redux/Covid/covidSlice';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-
 export default function Details() {
-
-
 
   const params = new URLSearchParams(window.location.search)
   let { covid } = useSelector((state) => state.covid);
