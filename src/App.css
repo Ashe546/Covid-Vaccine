@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(244, 244, 244);
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.active {
+  color: blue;
 }
 
 @keyframes App-logo-spin {
