@@ -31,6 +31,8 @@
     "postcss.config.js",
     "src/setupTests.js",
     "src/Redux",
-    "src/__tests__"
+    "src/__tests__/detail.test.js",
+    "src/__tests__/home.test.js"
+
   ]
 }
