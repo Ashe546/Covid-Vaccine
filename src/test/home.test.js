@@ -1,4 +1,4 @@
-import store from '../redux/Store';
+import store from '../Redux/Store';
 import { fetchData } from '../Redux/Covid/covidSlice';
 
 describe('Redux store', () => {
