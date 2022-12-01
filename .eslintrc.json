@@ -30,7 +30,6 @@
     "tailwind.config.js",
     "postcss.config.js",
     "src/setupTests.js",
-    "src/Redux",
     "src/__tests__"
   ]
 }
