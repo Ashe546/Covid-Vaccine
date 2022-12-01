@@ -1,9 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-
 import { Provider } from 'react-redux';
 import store from './Redux/Store';
-
 import Home from './component/Home';
 import Details from './component/Details';
 import Nav from './component/Nav';
