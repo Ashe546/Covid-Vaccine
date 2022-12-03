@@ -165,6 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Give credit to everyone who inspired your codebase.
 > I would like to thank [covid-193](https://rapidapi.com/api-sports/api/covid-193) for providing me the free api 
+> I would Also Like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
